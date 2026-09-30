@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    background-color: #ffffff;
+    color: #222222;
+    font-family: "Yu Gothic", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+main {
+    width: 720px;
+    max-width: 90%;
+    margin: 0 auto;
+    padding-bottom: 60px;
+}
+
+.hero {
+    padding: 60px 0 35px;
+    border-bottom: 1px solid #dddddd;
+}
+
+.k {
+    color: #777777;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.name {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0 0 15px;
+}
+
+.hero h1 {
+    font-size: 18px;
+    font-weight: normal;
+    margin: 0 0 8px;
+    line-height: 1.6;
+}
+
+.hero .sub {
+    color: #666666;
+    margin: 0;
+}
+
+h2 {
+    font-size: 22px;
+    margin: 45px 0 10px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #222222;
+}
+
+h3 {
+    margin-top: 0;
+}
+
+.lead {
+    color: #666666;
+    margin-top: 0;
+}
+
+.work {
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #ffffff;
+}
+
+.work h3 {
+    font-size: 19px;
+    margin-bottom: 8px;
+}
+
+.work p {
+    margin-top: 0;
+}
+
+.tags {
+    display: flex;
+    gap: 8px;
+    padding: 0;
+    margin: 15px 0 0;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.tags li {
+    background-color: #f1f1f1;
+    padding: 3px 10px;
+    border-radius: 4px;
+    color: #555555;
+    font-size: 13px;
+}
+
+.two {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.two h3 {
+    font-size: 17px;
+    margin-bottom: 8px;
+}
+
+.two ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+a {
+    color: #1a5fb4;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+    main {
+        width: 90%;
+    }
+
+    .hero {
+        padding-top: 35px;
+    }
+
+    .hero h1 {
+        font-size: 16px;
+    }
+
+    .name {
+        font-size: 25px;
+    }
+
+    h2 {
+        font-size: 20px;
+        margin-top: 35px;
+    }
+
+    .two {
+        display: block;
+    }
+
+    .two > div {
+        margin-bottom: 25px;
+    }
+
+    .work {
+        padding: 16px;
+    }
+}
